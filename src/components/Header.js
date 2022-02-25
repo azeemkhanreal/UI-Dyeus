@@ -3,10 +3,7 @@ import "./Header.css";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-
-  const menuHandler = (e) => {
-    setMenuOpen(!menuOpen);
-  };
+  const menuHandler = () => setMenuOpen(!menuOpen);
 
   return (
     <div className="header">
