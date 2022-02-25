@@ -1,0 +1,4 @@
+.App {
+  width: calc(100vw - 65px);
+  margin: 0 auto;
+}
