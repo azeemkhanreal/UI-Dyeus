@@ -71,9 +71,7 @@ const Container = styled.div`
 const ProductImage = styled.img`
   object-fit: contain;
   margin-top: 20px;
-  width: 311px;
-  height: 407px;
-  margin: 0 auto;
+  width: 100%;
 `;
 
 const ProductTitle = styled.h2`
@@ -84,7 +82,6 @@ const ProductTitle = styled.h2`
 const ProductDesc = styled.p`
   margin-top: 13px;
   font-family: "Belgrano", serif;
-  font-weight: 400;
   line-height: 23.24px;
   font-size: 12px;
   color: rgba(196, 202, 207, 1);
@@ -111,7 +108,6 @@ const ProductRatingsContainer = styled.div`
     margin-left: 8px;
     font-size: 12px;
     font-family: "Montserrat", sans-serif;
-    font-weight: 700;
   }
   a {
     font-family: "DM Sans", sans-serif;
@@ -134,7 +130,6 @@ const ProductOldPrice = styled.div`
   margin-left: 20px;
   color: rgba(60, 70, 79, 1);
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
 `;
 const ProductVariantPicker = styled.div`
   margin-top: 30px;
@@ -153,12 +148,12 @@ const ProductVariantDesc = styled.div`
     outline: none;
     border: none;
     padding: 4px;
-    font-size: 5px;
+    font-size: 7px;
     color: #fff;
     font-weight: 800;
     border-radius: 8px;
     text-transform: uppercase;
-    width: 70px;
+    width: 100px;
   }
   h1 {
     font-family: "DM Sans", sans-serif;
@@ -210,6 +205,7 @@ const AddToCartButton = styled.button`
   font-weight: bold;
   font-size: 13px;
   padding: 16px;
+  margin-bottom: 30px;
   img {
     width: 16px;
   }
